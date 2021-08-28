@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Math Quiz</title>
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+        <script src="game.js"></script>
+    </head>
+
+<body background="mathmathmath.jpg">
+
+	<h4 id="player1_name"></h4><span id="player1_score"></span>
+	<br>
+	<h4 id="player2_name"></h4><span id="player2_score"></span>
+	<div class="container">
+		<center>
+			<h2 style="color: red;">Math Masters game!</h2>
+			<h3 id="playerQuestion"></h3>
+			<h3 id="playerAnswer"></h3>
+			<div id="output">
+
+            </div>
+			<br>
+			<br>
+
+			<div id="giveItATextAlign">
+                <h3>Number 1</h3>
+                <input id="number1" type="text">
+
+                <h3>Number 2</h3>
+                <input id="number2" type="text">
+                <br><br>
+                <button id="GetQuestion" onclick="sent()" class="btn btn-danger">Sent</button>
+            </div>
+
+            
+
+		</center>
+	</div>
+
+	<script src="game.js"></script>
+</body>
+
+</html>
